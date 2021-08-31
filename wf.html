@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@800&display=swap"
+        rel="stylesheet">
+    <title>wishfish</title>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="wf.html"><img src="i01_ps_3.png"></a>
+
+        <ul>
+            <li>
+                <a class="link" href="wf.html">HOME</a>
+            </li>
+            <li>
+                <a class="link" href="gallery.html">GALLERY</a>
+            </li>
+            <li>
+                <a class="link" href="adout.html">ABOUT</a>
+            </li>
+            <li>
+                <a class="link" href="contact.html">CONTACT</a>
+            </li>
+            <li>
+                <a class="link" href="fndq.html">F&Q</a>
+            </li>
+        </ul>
+
+    </nav>
+    <section class="main">
+        <h1>WISH FISH</h1>
+    </section>
+    <section>
+        <form>
+            <div class="search-box">
+                <input type="text" class="txt" id="search" onchange="openPage()" placeholder="Search Here...">
+                <a class="btn"><i class="fa fa-search"></i></a>
+                <script>
+                    function openPage() {
+                        var x = document.getElementById("search").value;
+
+                        if (x === "koi") {
+                            window.open("https://www.thesprucepets.com/koi-fish-species-profile-5183977");
+                        }
+                        if (x === "betta") {
+                            window.open("https://www.thesprucepets.com/siamese-fighting-fish-bettas-1378308");
+                        }
+                        if (x === "oscar") {
+                            window.open("https://www.thesprucepets.com/oscar-fish-species-profile-5079536");
+                        }
+                        if (x === "guppy") {
+                            window.open("guppy.html");
+                        }
+                        if (x === "sword tail") {
+                            window.open("https://www.thesprucepets.com/swordtail-fish-species-profile-5078361");
+                        }
+                        if (x === "neon tetra") {
+                            window.open("https://www.thesprucepets.com/neon-tetra-paracheirodon-1381835");
+                        }
+                        if (x === "arowana") {
+                            window.open("arowana.html");
+                        }
+                        if (x === "gold") {
+                            window.open("gold.html");
+                        }
+                        if (x === "mollie") {
+                            window.open("mollie.html");
+                        }
+                        if (x === "flower Horn") {
+                            window.open("flowerhorn.html");
+                        }
+
+                    }
+                </script>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="copy"> Copyright © 2021, Real Aquaman. All rights reserved.</div>
+    </footer>
+</body>
+
+</html>
